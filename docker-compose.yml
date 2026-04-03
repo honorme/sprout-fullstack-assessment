@@ -1,0 +1,11 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: sprout_tasks
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./db/docker-init:/docker-entrypoint-initdb.d:ro
