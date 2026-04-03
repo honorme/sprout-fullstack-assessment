@@ -1,8 +1,5 @@
 function apiBase() {
-  const explicit = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '')
-  if (explicit) return explicit
-  if (import.meta.env.DEV) return ''
-  return ''
+  return (import.meta.env.VITE_API_URL || '').replace(/\/$/, '')
 }
 
 async function handleJson(res) {
