@@ -147,6 +147,11 @@ export default function App() {
           </ul>
         )}
       </section>
+
+      <footer className="footer">
+        <p>Created By: <a href="https://honournosakhare.com" target='_blank'>Honour Nosakhare</a></p>
+        <p>Github Repo: <a href="https://github.com/honorme/sprout-fullstack-assessment" target='_blank'>Sprout Fullstack Assessment</a></p>
+      </footer>
     </div>
   )
 }
