@@ -1,0 +1,126 @@
+.layout {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  font-family: system-ui, sans-serif;
+}
+
+.header h1 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin: 0 0 1rem;
+}
+
+.panel {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  background: #fafafa;
+}
+
+.panel h2 {
+  font-size: 1rem;
+  margin: 0 0 0.75rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.form input,
+.form textarea,
+.task-actions select {
+  width: 100%;
+  max-width: 24rem;
+  padding: 0.35rem 0.5rem;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+.form button {
+  align-self: flex-start;
+  padding: 0.4rem 0.75rem;
+  font: inherit;
+  cursor: pointer;
+}
+
+.banner.error {
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 1rem;
+  background: #fee;
+  border: 1px solid #c00;
+  border-radius: 0.25rem;
+  color: #600;
+}
+
+.muted {
+  color: #555;
+  margin: 0;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-item {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-item:last-child {
+  border-bottom: none;
+}
+
+.task-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font: inherit;
+  align-items: baseline;
+}
+
+.task-title {
+  font-weight: 600;
+}
+
+.task-time {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.task-desc {
+  margin: 0.35rem 0 0.5rem;
+  font-size: 0.9rem;
+}
+
+.task-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: flex-end;
+}
+
+.task-actions label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.task-actions button {
+  padding: 0.35rem 0.5rem;
+  font: inherit;
+  cursor: pointer;
+}
